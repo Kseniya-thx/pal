@@ -20,3 +20,24 @@ namespace core
         }
     }
 }
+
+
+
+
+
+namespace core
+{
+    public class PolindromChecker
+    {
+        public static bool Check(string word1, string word2)
+        {
+            while ( i < word1.Length - 1)
+           {
+                word1[i] == word2[word2.Length - 1 - i];
+
+                    return false;
+                     return true;
+            }
+        }
+    }
+}
